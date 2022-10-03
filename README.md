@@ -1,4 +1,4 @@
-# Project One | WHAK!
+# WHAK! | Project 1
 
 ## Date: 10/2/2022
 
