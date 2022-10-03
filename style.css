@@ -1,12 +1,17 @@
-/* .gridboard {
-  display: grid;
-} */
-
-.square {
-  display: grid;
-  height: 60px;
-  width: 60px;
-  border: 3px solid black;
+.gridboard {
+display: grid;
+/* justify-content: center; */
+/* padding-top: 50px; */
+}
+.hole {
+  display: inline-grid;
+  grid-template-columns: 60px 60px 60px;
+  height: 100px;
+  width: 400px;
+  grid-row-gap: 40px;
+  grid-column-gap:  160px;
+  justify-content: center;
+  padding: 60px;
 }
 
 #m1 {
@@ -14,7 +19,7 @@
 } 
 
 
-/* #m2 {
+#m2 {
   background-color: rgb(124, 216, 112);
 }
 
@@ -51,5 +56,4 @@
 
 #m9 {
   background-color: mediumslateblue;
-}
- */
+} 
