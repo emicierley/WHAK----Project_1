@@ -1,34 +1,33 @@
 /////////////////////////////////
 //GLOBAL VARIABLES
-//let endGame= 0
+//const pointsCounter = 0
+//let endGame = 0
 /////////////////////////////////
 //FUNCTION FOR GAME LOGIC
-// HOW TO DECLARE AN ARROW FUNCTION:
-// const functionName = (parameters) => {
-//}
-
-//we are accessing the sq. & inside of the sq.
-// const square = document.querySelectorAll('.square')
-// const mole = document.querySelectorAll('m1')
 
 //cited source: Haritha Computers & Technology --https://youtu.be/HQNH2GBYL9k
 //this function makes the mole appear & disappear
 function outMole() {
   document.getElementById('m1').style.visibility = 'visible'
 }
-function inMole() {
-  if (document.getElementById('m1').style.visibility === 'visible')
-    document.getElementById('m1').style.visibility = 'hidden'
+//clicking on the mole to get in the hole
+function inMole(h) {
+  console.log(h)
+  console.log(h.path[0].id)
+  if (document.getElementById(h.path[0].id).style.visibility === 'visible')
+    document.getElementById(h.path[0].id).style.visibility = 'hidden'
 }
-// setTimeout('outMole()', 2000)
-// setTimeout('inMole()', 10000)
+setTimeout('outMole()', 2000)
+setTimeout('inMole()', 10000)
 
 ////////////////////////////////
 //EVENT LISTENERS
 
 //when we click on the mole, it will hide
-document.getElementById('m1').addEventListener('click', inMole)
-document.querySelectorAll()
+// document.getElementById('m1').addEventListener('click', inMole)
+document.querySelectorAll('.hole').forEach((h) => {
+  h.addEventListener('click', inMole)
+})
 
 //start/reset button
 // btn.addEventListener('click', resetBoard) //makes reset button work, ready for new game play
