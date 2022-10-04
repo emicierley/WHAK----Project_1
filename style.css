@@ -1,8 +1,15 @@
 .gridboard {
 display: grid;
-/* justify-content: center; */
-/* padding-top: 50px; */
+
 }
+
+/* body {
+background-image: url("https://i.pinimg.com/736x/79/4e/7f/794e7f31490745cf183354a535707751.jpg");
+background-position-x: right;
+background-position-y: top;
+background-repeat: no-repeat;
+background-size: 760px;
+} */
 .all-holes {
   display: grid;
   grid-template-columns: 60px 60px 60px;

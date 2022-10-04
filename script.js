@@ -1,29 +1,31 @@
 /////////////////////////////////
 //GLOBAL VARIABLES
-//const pointsCounter = 0
-//let endGame = 0
+//const scoreBoard = 0
+const randomHoles = document.querySelectorAll('.hole')
+let gameOn = true
 /////////////////////////////////
+
 //FUNCTION FOR GAME LOGIC
 
 //cited source: Haritha Computers & Technology --https://youtu.be/HQNH2GBYL9k
-//this function makes the mole appear & disappear
+// Moles are out of holes, set with a parameter to go into the hole
 function outMole(holes) {
   document.getElementById(holes.id).style.visibility = 'visible'
 }
-
-const moleArr = [0, 1, 2, 3, 4, 5, 6, 7, 8]
-const outMoles = moleArr[Math.floor(Math.random() * moleArr.length)]
-
-//clicking on the mole to get in the hole
+// Clickable moles to get into the hole
 function inMole(holes) {
   if (document.getElementById(holes.id).style.visibility === 'visible') {
     document.getElementById(holes.id).style.visibility = 'hidden'
-
+    //Click a mole, generates random id
+    let randomMoles = randomHoles[Math.floor(Math.random() * 9)]
+    console.log(randomMoles)
     setTimeout(() => outMole(holes), 2000)
   }
 }
 
-// setTimeout('inMole()', 10000)
+//Moles pop-up function when game begins
+
+// setTimeout(inMole(holes), 2000)
 
 ////////////////////////////////
 //EVENT LISTENERS
