@@ -13,18 +13,22 @@
 
 //cited source: Haritha Computers & Technology --https://youtu.be/HQNH2GBYL9k
 //this function makes the mole appear & disappear
-// function outMole() {
-//   document.getElementById('m1').style.visibility = 'visible'
-// }
-// function inMole() {
-//   if (document.getElementById('m1').style.visibility === 'visible')
-//     document.getElementById('m1').style.visibility = 'hidden'
-// }
-// setTimeout('outMole()', 500)
-// setTimeout('inMole()', 800)
+function outMole() {
+  document.getElementById('m1').style.visibility = 'visible'
+}
+function inMole() {
+  if (document.getElementById('m1').style.visibility === 'visible')
+    document.getElementById('m1').style.visibility = 'hidden'
+}
+// setTimeout('outMole()', 2000)
+// setTimeout('inMole()', 10000)
 
 ////////////////////////////////
 //EVENT LISTENERS
+
+//when we click on the mole, it will hide
+document.getElementById('m1').addEventListener('click', inMole)
+document.querySelectorAll()
 
 //start/reset button
 // btn.addEventListener('click', resetBoard) //makes reset button work, ready for new game play

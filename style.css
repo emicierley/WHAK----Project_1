@@ -3,14 +3,13 @@ display: grid;
 /* justify-content: center; */
 /* padding-top: 50px; */
 }
-.hole {
-  display: inline-grid;
+.all-holes {
+  display: grid;
   grid-template-columns: 60px 60px 60px;
   height: 100px;
   width: 400px;
   grid-row-gap: 40px;
   grid-column-gap:  160px;
-  justify-content: center;
   padding: 60px;
 }
 
