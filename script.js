@@ -7,26 +7,31 @@
 
 //cited source: Haritha Computers & Technology --https://youtu.be/HQNH2GBYL9k
 //this function makes the mole appear & disappear
-function outMole() {
-  document.getElementById('m1').style.visibility = 'visible'
+function outMole(holes) {
+  document.getElementById(holes.id).style.visibility = 'visible'
 }
+
+const moleArr = [0, 1, 2, 3, 4, 5, 6, 7, 8]
+const outMoles = moleArr[Math.floor(Math.random() * moleArr.length)]
+
 //clicking on the mole to get in the hole
-function inMole(h) {
-  console.log(h)
-  console.log(h.path[0].id)
-  if (document.getElementById(h.path[0].id).style.visibility === 'visible')
-    document.getElementById(h.path[0].id).style.visibility = 'hidden'
+function inMole(holes) {
+  if (document.getElementById(holes.id).style.visibility === 'visible') {
+    document.getElementById(holes.id).style.visibility = 'hidden'
+
+    setTimeout(() => outMole(holes), 2000)
+  }
 }
-setTimeout('outMole()', 2000)
-setTimeout('inMole()', 10000)
+
+// setTimeout('inMole()', 10000)
 
 ////////////////////////////////
 //EVENT LISTENERS
 
 //when we click on the mole, it will hide
 // document.getElementById('m1').addEventListener('click', inMole)
-document.querySelectorAll('.hole').forEach((h) => {
-  h.addEventListener('click', inMole)
+document.querySelectorAll('.hole').forEach((holes) => {
+  holes.addEventListener('click', () => inMole(holes))
 })
 
 //start/reset button
