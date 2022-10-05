@@ -12,14 +12,16 @@ let gameOn = false
 function outMole(holes) {
   document.getElementById(holes.id).style.visibility = 'visible'
 }
-// Clickable moles to get into the hole
+// Clickable moles to get into the hole when game is on
 function inMole(holes) {
-  if (document.getElementById(holes.id).style.visibility === 'visible') {
-    document.getElementById(holes.id).style.visibility = 'hidden'
-    //Clickable mole, generates random id
-    let randomMoles = randomHoles[Math.floor(Math.random() * 9)]
-    console.log(randomMoles)
-    setTimeout(() => outMole(holes), 2000)
+  if (gameOn) {
+    if (document.getElementById(holes.id).style.visibility === 'visible') {
+      document.getElementById(holes.id).style.visibility = 'hidden'
+      //Clickable mole, generates random id
+      let randomMoles = randomHoles[Math.floor(Math.random() * 9)]
+      console.log(randomMoles)
+      setTimeout(() => outMole(holes), 2000)
+    }
   }
 }
 //start game and set game play timer
