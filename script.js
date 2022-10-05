@@ -28,7 +28,7 @@ function gamePlay() {
   gameOn = true
   console.log('the game is starts')
   scoreBoard = 0
-
+  //TODO unfinished mole-- get moles to pop up
   // for (let i = 0; i < 10; i++) {
   //   setTimeout(() => {
   //     let randomMole = randomHoles[Math.floor(Math.random() * 9)]
@@ -37,7 +37,7 @@ function gamePlay() {
   // }
   setTimeout(() => {
     gameOn = false
-    console.log('the game is now overrrrrr')
+    console.log('the game is now over')
   }, 15000)
 }
 

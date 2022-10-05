@@ -11,9 +11,9 @@ background-size: 100vw 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 500px;
-  width: 500px;
-  grid-gap: 90px;
+  height: 300px;
+  width: 300px;
+  grid-gap: 70px;
   padding-top: 100px;
 padding-left: 300px;
 }
@@ -21,45 +21,54 @@ padding-left: 300px;
 
 /* set background-color when close to finish line for each id from 25-64 #d41702  */
 #m1 {
-  background-color: red;
+  background-color: #037e00;
+  border-style: inset;
 } 
 
 
 #m2 {
-  background-color: rgb(124, 216, 112);
+  background-color: red;
+  border-style: inset;
 }
 
 
 #m3 {
-  background-color: aquamarine;
+  background-color: #06ffff; 
+  border-style: inset;
 }
 
 
 #m4 {
-  background-color: blueviolet;
+  background-color: #00f;
+  border-style: inset;
 }
 
 
 #m5 {
-  background-color: blue;
+  background-color: #ffff03;
+  border-style: inset;
 }
 
 
 #m6 {
-  background-color: chocolate;
+  background-color:  #a0a0a4;
+  border-style: inset;
 }
 
 
 #m7 {
-  background-color: forestgreen;
+  background-color: #06ff03; 
+  border-style: inset;
 }
 
 
 #m8 {
-  background-color: #e3e358;
+  background-color: #fe00ff;
+  border-style: inset;
 }
 
 
 #m9 {
-  background-color: mediumslateblue;
+  background-color:  #5500aa;
+  border-style: inset;
 } 
