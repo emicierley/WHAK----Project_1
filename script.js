@@ -22,10 +22,14 @@ function inMole(holes) {
     setTimeout(() => outMole(holes), 2000)
   }
 }
-
-//Moles pop-up function when game begins
-if (gameOn) {
-  console.log('the game is on')
+//start game and set game play timer
+function gamePlay() {
+  gameOn = true
+  console.log('the game is starts')
+  setTimeout(() => {
+    gameOn = false
+    console.log('the game over')
+  }, 10000)
 }
 
 // setTimeout(inMole(holes), 2000)
@@ -40,9 +44,4 @@ document.querySelectorAll('.hole').forEach((holes) => {
 })
 
 //start/reset button
-// btn.addEventListener('click', () => {
-//   gameOn = true
-//   console.log('button on')
-// })
-
-// variable.forEach(var => var.addEventListener('click', bonk));
+btn.addEventListener('click', gamePlay)
