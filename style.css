@@ -1,12 +1,12 @@
 
-body {
+/* body {
 display: flex;
 justify-content: center;
 background-image: url("https://techpubs.jurassic.nl/manuals/0650/enduser/SWin_UG/sgi_html/figures/swin.gif");
 background-repeat: no-repeat;
 background-size: cover;
 background-size: 100vw 100vh;
-} 
+}  */
 .all-holes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -19,7 +19,6 @@ padding-left: 300px;
 }
 
 
-/* set background-color when close to finish line for each id from 25-64 #d41702  */
 #m1 {
   background-color: #037e00;
   border-style: inset;
@@ -72,3 +71,14 @@ padding-left: 300px;
   background-color:  #5500aa;
   border-style: inset;
 } 
+
+/* ADD SCOREBOARD*/
+
+/* ADD PLAY BUTTON + SHADOW EFFECTS */
+#btn {
+  font-family: 'VT323', monospace;
+}
+
+.entryPage{
+  font-family: 'VT323', monospace;
+}
