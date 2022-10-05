@@ -1,6 +1,6 @@
 /////////////////////////////////
 //GLOBAL VARIABLES
-//const scoreBoard = 0
+let scoreBoard = 0
 const randomHoles = document.querySelectorAll('.hole')
 let gameOn = false
 /////////////////////////////////
@@ -17,6 +17,8 @@ function inMole(holes) {
   if (gameOn) {
     if (document.getElementById(holes.id).style.visibility === 'visible') {
       document.getElementById(holes.id).style.visibility = 'hidden'
+      scoreBoard++
+      console.log(scoreBoard)
       setTimeout(() => outMole(holes), 2000)
     }
   }
@@ -25,24 +27,19 @@ function inMole(holes) {
 function gamePlay() {
   gameOn = true
   console.log('the game is starts')
+  scoreBoard = 0
 
-  //Clickable mole, generates random id
-  // while (gameOn) {
+  // for (let i = 0; i < 10; i++) {
   //   setTimeout(() => {
   //     let randomMole = randomHoles[Math.floor(Math.random() * 9)]
   //     console.log(randomMole)
   //   }, 1000)
   // }
-
-  for (let i = 0; i < 10; i++) {}
-
   setTimeout(() => {
     gameOn = false
-    console.log('the game over')
-  }, 10000)
+    console.log('the game is now overrrrrr')
+  }, 15000)
 }
-
-// setTimeout(inMole(holes), 2000)
 
 ////////////////////////////////
 //EVENT LISTENERS
