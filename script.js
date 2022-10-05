@@ -2,7 +2,7 @@
 //GLOBAL VARIABLES
 //const scoreBoard = 0
 const randomHoles = document.querySelectorAll('.hole')
-let gameOn = true
+let gameOn = false
 /////////////////////////////////
 
 //FUNCTION FOR GAME LOGIC
@@ -16,7 +16,7 @@ function outMole(holes) {
 function inMole(holes) {
   if (document.getElementById(holes.id).style.visibility === 'visible') {
     document.getElementById(holes.id).style.visibility = 'hidden'
-    //Click a mole, generates random id
+    //Clickable mole, generates random id
     let randomMoles = randomHoles[Math.floor(Math.random() * 9)]
     console.log(randomMoles)
     setTimeout(() => outMole(holes), 2000)
@@ -24,6 +24,9 @@ function inMole(holes) {
 }
 
 //Moles pop-up function when game begins
+if (gameOn) {
+  console.log('the game is on')
+}
 
 // setTimeout(inMole(holes), 2000)
 
@@ -37,4 +40,9 @@ document.querySelectorAll('.hole').forEach((holes) => {
 })
 
 //start/reset button
-// btn.addEventListener('click', resetBoard) //makes reset button work, ready for new game play
+// btn.addEventListener('click', () => {
+//   gameOn = true
+//   console.log('button on')
+// })
+
+// variable.forEach(var => var.addEventListener('click', bonk));

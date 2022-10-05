@@ -1,27 +1,27 @@
-.gridboard {
-display: grid;
 
-}
-
-/* body {
-background-image: url("https://i.pinimg.com/736x/79/4e/7f/794e7f31490745cf183354a535707751.jpg");
-background-position-x: right;
-background-position-y: top;
+body {
+display: flex;
+justify-content: center;
+background-image: url("https://techpubs.jurassic.nl/manuals/0650/enduser/SWin_UG/sgi_html/figures/swin.gif");
 background-repeat: no-repeat;
-background-size: 760px;
-} */
+background-size: cover;
+background-size: 100vw 100vh;
+} 
 .all-holes {
   display: grid;
-  grid-template-columns: 60px 60px 60px;
-  height: 100px;
-  width: 400px;
-  grid-row-gap: 40px;
-  grid-column-gap:  160px;
-  padding: 60px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 400px;
+  width: 600px;
+  grid-gap: 90px;
+  padding-top: 100px;
+padding-left: 300px;
 }
 
+
+/* set background-color when close to finish line for each id from 25-64 #d41702  */
 #m1 {
-  background-color: palevioletred;
+  background-color: red;
 } 
 
 
