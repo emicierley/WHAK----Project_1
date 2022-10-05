@@ -25,9 +25,17 @@ function inMole(holes) {
 function gamePlay() {
   gameOn = true
   console.log('the game is starts')
+
   //Clickable mole, generates random id
-  let randomMoles = randomHoles[Math.floor(Math.random() * 9)]
-  console.log(randomMoles)
+  // while (gameOn) {
+  //   setTimeout(() => {
+  //     let randomMole = randomHoles[Math.floor(Math.random() * 9)]
+  //     console.log(randomMole)
+  //   }, 1000)
+  // }
+
+  for (let i = 0; i < 10; i++) {}
+
   setTimeout(() => {
     gameOn = false
     console.log('the game over')
