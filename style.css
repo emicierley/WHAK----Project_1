@@ -1,23 +1,24 @@
-
-/* body {
+/* cited source:https://css-tricks.com/perfect-full-page-background-image/ */
+body {
 display: flex;
-justify-content: center;
-background-image: url("https://techpubs.jurassic.nl/manuals/0650/enduser/SWin_UG/sgi_html/figures/swin.gif");
+background: url("https://techpubs.jurassic.nl/manuals/0650/enduser/SWin_UG/sgi_html/figures/swin.gif")no-repeat center center fixed;
 background-repeat: no-repeat;
-background-size: cover;
-background-size: 100vw 100vh;
-}  */
+background-position: fixed;
+background-size: 95%;
+overflow: hidden;
+}  
+
 .all-holes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 300px;
-  width: 300px;
-  grid-gap: 60px;
+  height: 245px;
+  width: 245px;
+  grid-gap: 40px;
   padding-top: 80px;
-padding-left: 300px;
+  padding-left: 280px;
+  position: static;
 }
-
 
 #m1 {
   background-color: #037e00;
@@ -77,8 +78,10 @@ padding-left: 300px;
 /* ADD PLAY BUTTON + SHADOW EFFECTS */
 #btn {
   font-family: 'VT323', monospace;
+  margin-bottom:  1000px;
 }
 
 .entryPage{
   font-family: 'VT323', monospace;
+  color: #cde0e2;
 }
