@@ -6,7 +6,7 @@ background-repeat: no-repeat;
 background-position: fixed;
 background-size: 95%;
 overflow: hidden;
-background-color: #dfdac4;
+background-color: #657299;
 }  
 
 .all-holes {
@@ -16,8 +16,8 @@ background-color: #dfdac4;
   height: 245px;
   width: 245px;
   grid-gap: 40px;
-  padding-top: 80px;
-  padding-left: 280px;
+  padding-top: 115px;
+  padding-left: 235px;
   position: relative;
 }
 
@@ -83,21 +83,35 @@ background-color: #dfdac4;
   box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
-
 #m9 {
   background-color:  #5500aa;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
 } 
 
-#btn {
+/* add pressed effect to button */
+
+#playbtn {
   font-family: 'VT323', monospace;
-  /* size of shadow */
-  box-shadow: 0px 1px 2px 1px #172b29;  
+  margin-left: 340px;
+  margin-top: 30px;
+  border-style: inset;
+  border-right-color: #172b29;
+  background-color: #d8d8d8;
+  font-size: small;
+  font-weight: 900;
 }
 #backbtn {
   font-family: 'VT323', monospace;
-  box-shadow: 0px 1px 2px 1px #172b29; 
+  margin-right: 300px;
+  margin-left: 70px;
+  margin-top: 35px;
+  height: 17px;
+  font-size: small;
+  font-weight: 900;
+  border-style: inset;
+  border-right-color: #172b29;
+  background-color: #d8d8d8;
 }
 
 
