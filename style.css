@@ -6,6 +6,7 @@ background-repeat: no-repeat;
 background-position: fixed;
 background-size: 95%;
 overflow: hidden;
+background-color: #dfdac4;
 }  
 
 .all-holes {
@@ -17,71 +18,86 @@ overflow: hidden;
   grid-gap: 40px;
   padding-top: 80px;
   padding-left: 280px;
-  position: static;
+  position: relative;
 }
+
+/* ADD SCOREBOARD*/
+
+.entryPage{
+  font-family: 'VT323', monospace;
+  color: #cde0e2;
+}
+
+/* box shadow cite source: https://devpractical.com/add-button-shadow-html/ */
 
 #m1 {
   background-color: #037e00;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 } 
-
 
 #m2 {
   background-color: red;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
-
 
 #m3 {
   background-color: #06ffff; 
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m4 {
   background-color: #00f;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m5 {
   background-color: #ffff03;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m6 {
   background-color:  #a0a0a4;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m7 {
   background-color: #06ff03; 
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m8 {
   background-color: #fe00ff;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
 
 #m9 {
   background-color:  #5500aa;
   border-style: inset;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 } 
 
-/* ADD SCOREBOARD*/
-
-/* ADD PLAY BUTTON + SHADOW EFFECTS */
 #btn {
   font-family: 'VT323', monospace;
-  margin-bottom:  1000px;
+  /* size of shadow */
+  box-shadow: 0px 1px 2px 1px #172b29;  
+}
+#backbtn {
+  font-family: 'VT323', monospace;
+  box-shadow: 0px 1px 2px 1px #172b29; 
 }
 
-.entryPage{
-  font-family: 'VT323', monospace;
-  color: #cde0e2;
-}
+
