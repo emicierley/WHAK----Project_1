@@ -1,5 +1,6 @@
 /////////////////////////////////
 //GLOBAL VARIABLES
+
 let scoreBoard = 0
 const randomHoles = document.querySelectorAll('.hole')
 let gameOn = false
@@ -34,7 +35,7 @@ function gamePlay() {
   //hides moles and they each pop-up @ different times
   for (let i = 0; i < randomHoles.length; i++) {
     document.getElementById(randomHoles[i].id).style.visibility = 'hidden'
-    let randomNumber = Math.random() * (4000 - 1000) + 1000
+    let randomNumber = Math.random() * (4000 - 2000) + 1000
     setTimeout(() => {
       outMole(randomHoles[i])
     }, randomNumber)
@@ -61,7 +62,7 @@ document.querySelectorAll('.hole').forEach((hole) => {
   })
 })
 //start/reset button
-btn.addEventListener('click', gamePlay)
+playbtn.addEventListener('click', gamePlay)
 
 const resetBoard = () => {
   document.querySelectorAll(outMole).forEach((randomMole) => {

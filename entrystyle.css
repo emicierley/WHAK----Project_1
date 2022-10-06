@@ -1,4 +1,33 @@
+/* cited source: https://youtu.be/cUF-q50DPPM */
+body,html {
+  min-height: 100%;
+}
 #startbtn {
   font-family: 'VT323', monospace;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  font-family: 'VT323', monospace;
+  margin-left: 340px;
+  margin-top: 30px;
+  border-style: inset;
+  border-right-color: #172b29;
+  background-color: #c6c9ca;
+  border-right-color: #484949;
+  border-top-color: #eceaeb;  
+  font-size: small;
+  font-weight: 900;
+}
+
+body {
+  /* background: url("https://www.dlf.pt/dfpng/middlepng/461-4610733_clippy-webpunk-webcore-microsoft-windows95-windows98-clippy-microsoft.png");
+  background-size: 100%;
+  background-clip: no-repeat; */
+  background: url("https://vignette.wikia.nocookie.net/world-of-media/images/7/77/Windows95_paint.png/revision/latest?cb=20140130123755");
+  background-repeat: no-repeat;
+  background-position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: auto;
+  overflow: hidden;
+  background-color: #657299;
+
 }
