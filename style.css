@@ -6,11 +6,13 @@ body {
   background-position: absolute;
   background-size: auto;
   background-color: #657299;
+  position: fixed;
 }  
 
 #scoreboard {
   display: inline-block;
   position: center fixed;
+  padding-left: 100px;
 }
 
 /* add an image underneath the squares?*/
@@ -30,7 +32,7 @@ body {
 /* adjust button shadowing and shading to text? */
 #playbtn {
   font-family: 'VT323', monospace;
-  margin-left: 340px;
+  margin-left: 210px;
   margin-bottom: 500px;
   border-style: inset;
   background-color: #c6c9ca;
