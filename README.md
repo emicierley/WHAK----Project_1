@@ -38,7 +38,8 @@
 
 <!-- #### add title + insert game screenshots + URL -->
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Lrxj3FlVCPVr8jfAHjtfGwHaE8%26pid%3DApi&f=1&ipt=3888eede2abe7ebf3a357b48eb1203e4fff43fd876fabf2ab870c44f0bad2867&ipo=images)
+![](https://user-images.githubusercontent.com/113917029/194584599-dea95e78-e63b-4ff9-88e3-b0f28ae60fea.png)
+)
 
 <!-- #### add title + insert game screenshots + URL -->
 
