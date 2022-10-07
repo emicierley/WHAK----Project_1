@@ -43,7 +43,7 @@
 
 <!-- #### add title + insert game screenshots + URL -->
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.rKlK4e23muY45xFpVoiwqAHaEA%26pid%3DApi&f=1&ipt=0db4e7b2554df40a502b7cca567a79d4ffa9ebb6c31cc0cce25e0b15153eab1e&ipo=images)
+![](https://user-images.githubusercontent.com/113917029/194585136-1f6e10b4-d159-4edd-8810-f7bcf3098d2c.png)
 
 ---
 
