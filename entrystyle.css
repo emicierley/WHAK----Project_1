@@ -21,27 +21,26 @@ body {
   background-repeat: no-repeat;
   background-position: relative;
   background-size: auto;
-  overflow: hidden;
   background-color: #657299;
   font-family:'Finger Paint', cursive;
+  position: fixed;
 }
 
 h1 {
   display: flex;
-  justify-content: center;
+  padding-left: 160px;
   padding-top: 20px;
   font-size: 100px;
-  position: center fixed;
-}
-
-#gametitle{
-  margin-bottom: 5px;
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  padding-left: 100px;
+  padding-left: 270px;
   font-size: 15px;
   position: center fixed;
+}
+
+#gametitle{
+  margin-bottom: 5px;
 }
