@@ -7,12 +7,16 @@ body {
   background-size: auto;
   background-color: #657299;
   position: fixed;
+  cursor: default;
 }  
 
 #scoreboard {
   display: inline-block;
   position: center fixed;
   padding-left: 100px;
+  font-family: 'VT323', monospace;
+  color: #fffeff;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 /* add an image underneath the squares?*/
@@ -23,9 +27,8 @@ body {
   grid-gap: 40px;
   padding-top: 45px;
   padding-left: 235px;
-  cursor: pointer;
-  height: 230px;
-  width: 230px;
+  height: 215px;
+  width: 215px;
 }
 
 /* add pressed effect to buttons */
@@ -63,18 +66,21 @@ body {
   background-color: #037e00;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 } 
 
 #m2 {
   background-color: red;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 #m3 {
   background-color: #06ffff; 
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 
@@ -82,13 +88,15 @@ body {
   background-color: #00f;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 
 #m5 {
   background-color: #ffff03;
   border-style: inset;
-  box-shadow: 0px 1px 2px 1px #172b29; 
+  box-shadow: 0px 1px 2px 1px #172b29;
+  cursor: pointer; 
 }
 
 
@@ -96,6 +104,7 @@ body {
   background-color:  #a0a0a4;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 
@@ -103,6 +112,7 @@ body {
   background-color: #06ff03; 
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 
@@ -110,12 +120,14 @@ body {
   background-color: #fe00ff;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 }
 
 #m9 {
   background-color:  #5500aa;
   border-style: inset;
   box-shadow: 0px 1px 2px 1px #172b29; 
+  cursor: pointer;
 } 
 
 

@@ -4,7 +4,7 @@
 let scoreBoard = 0
 const randomHoles = document.querySelectorAll('.hole')
 let gameOn = false
-
+const clickAudio = new Audio('Click.mp3')
 /////////////////////////////////
 //FUNCTION FOR GAME LOGIC
 
@@ -21,7 +21,7 @@ function inMole(hole) {
   if (gameOn) {
     if (document.getElementById(hole.id).style.visibility === 'visible') {
       document.getElementById(hole.id).style.visibility = 'hidden'
-      let randomNumber = Math.random() * (3000 - 1000) + 1000
+      let randomNumber = Math.random() * (6000 - 4000) + 1000
       //tells moles to pop OUT of hole every x milli-seconds
       setTimeout(() => outMole(hole), randomNumber)
     }
@@ -35,7 +35,7 @@ function gamePlay() {
   //hides moles and they each pop-up @ different times
   for (let i = 0; i < randomHoles.length; i++) {
     document.getElementById(randomHoles[i].id).style.visibility = 'hidden'
-    let randomNumber = Math.random() * (4000 - 2000) + 1000
+    let randomNumber = Math.random() * (3000 - 1000) + 1000
     setTimeout(() => {
       outMole(randomHoles[i])
     }, randomNumber)
@@ -51,13 +51,15 @@ function gamePlay() {
 //EVENT LISTENERS
 
 //click on the mole, it will go into hole
-// document.getElementById('m1').addEventListener('click', inMole)
 document.querySelectorAll('.hole').forEach((hole) => {
   hole.addEventListener('click', () => {
     inMole(hole)
     if (gameOn) {
       scoreBoard++
-      document.getElementById('points').innerText = scoreBoard
+      document.getElementById('point-total').innerText = scoreBoard
+
+      //source cited: https://stackoverflow.com/questions/9419263/how-to-play-audio
+      clickAudio.play()
       console.log(scoreBoard)
     }
   })
