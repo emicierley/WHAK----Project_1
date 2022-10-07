@@ -57,10 +57,12 @@ document.querySelectorAll('.hole').forEach((hole) => {
     inMole(hole)
     if (gameOn) {
       scoreBoard++
+      document.getElementById('points').innerText = scoreBoard
       console.log(scoreBoard)
     }
   })
 })
+
 //start/reset button
 playbtn.addEventListener('click', gamePlay)
 

@@ -1,21 +1,23 @@
 
 /* cited source: https://css-tricks.com/perfect-full-page-background-image/ */
 body {
-/* display: flex; */
   background: url("https://techpubs.jurassic.nl/manuals/0650/enduser/SWin_UG/sgi_html/figures/swin.gif") fixed;
   background-repeat: no-repeat;
   background-position: absolute;
   background-size: auto;
-  /* overflow: hidden; */
   background-color: #657299;
 }  
+
+#scoreboard {
+  display: inline-block;
+  position: center fixed;
+}
 
 /* add an image underneath the squares?*/
 .all-holes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-area: center center fixed;
   grid-gap: 40px;
   padding-top: 45px;
   padding-left: 235px;
@@ -23,9 +25,36 @@ body {
   height: 230px;
   width: 230px;
 }
+
+/* add pressed effect to buttons */
+/* adjust button shadowing and shading to text? */
+#playbtn {
+  font-family: 'VT323', monospace;
+  margin-left: 340px;
+  margin-bottom: 500px;
+  border-style: inset;
+  background-color: #c6c9ca;
+  border-right-color: #172b29;
+  border-right-color: #484949;
+  border-top-color: #eceaeb;  
+  font-size: x-small;
+  font-weight: 700px;
+  position: center fixed;
+
+}
+#backbtn {
+  font-family: 'VT323', monospace;
+  height: 15px;
+  width: 50px;
+  font-size: x-small;
+  font-weight: 700px;
+  border-style:  inset;
+  border-right-color: #484949;
+  border-top-color: #eceaeb;
+  background-color: #c6c9ca;
+  position: center fixed;
+}
 /* Add click sound to buttons?  */
-/* #message{} */
-/* #scoreboard{}*/
 
 /* box shadow--cite source: https://devpractical.com/add-button-shadow-html/ */
 #m1 {
@@ -87,32 +116,5 @@ body {
   box-shadow: 0px 1px 2px 1px #172b29; 
 } 
 
-/* add pressed effect to buttons */
-/* adjust button shadowing and shading to text? */
-#playbtn {
-  font-family: 'VT323', monospace;
-  margin-left: 340px;
-  margin-top: 30px;
-  border-style: inset;
-  border-right-color: #172b29;
-  background-color: #bfbfc0;
-  border-right-color: #484949;
-  border-top-color: #eceaeb;  
-  font-size: small;
-  font-weight: 900;
-}
-#backbtn {
-  font-family: 'VT323', monospace;
-  margin-right: 300px;
-  margin-left: 70px;
-  margin-top: 28px;
-  height: 17px;
-  font-size: small;
-  font-weight: 900;
-  border-style:  outset;
-  border-right-color: #484949;
-  border-top-color: #eceaeb;
-  background-color: #c6c9ca;
-}
 
 
