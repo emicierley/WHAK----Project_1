@@ -28,7 +28,9 @@ body {
 
 audio {
   display: flex;
-  padding-left: 700px;
+  padding-left: 650px;
+  width: 50%;
+  opacity: 70%;
 }
 
 h1 {
@@ -41,8 +43,7 @@ h1 {
 h2 {
   display: flex;
   justify-content: center;
-  padding-right: 170px;
-  padding-left: 0px;
+  padding-left: 45px;
   font-size: 15px;
   position: center fixed;
 }
