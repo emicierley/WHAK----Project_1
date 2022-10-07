@@ -24,16 +24,16 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 40px;
-  padding-top: 45px;
+  padding-top: 95px;
   padding-left: 235px;
+  margin: 0;
   height: 215px;
   width: 215px;
 }
 
 #playbtn {
   font-family: 'VT323', monospace;
-  margin-left: 210px;
-  margin-bottom: 500px;
+  margin-left: 210px; 
   border-style: inset;
   background-color: #c6c9ca;
   border-right-color: #172b29;
