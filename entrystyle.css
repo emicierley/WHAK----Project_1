@@ -26,17 +26,23 @@ body {
   position: fixed;
 }
 
+audio {
+  display: flex;
+  padding-left: 700px;
+}
+
 h1 {
   display: flex;
   padding-left: 160px;
-  padding-top: 20px;
+  margin-top: 20px;
   font-size: 100px;
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  padding-left: 270px;
+  padding-right: 170px;
+  padding-left: 0px;
   font-size: 15px;
   position: center fixed;
 }

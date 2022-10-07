@@ -19,7 +19,6 @@ body {
   text-shadow: 1px 1px 3px #000000;
 }
 
-/* add an image underneath the squares?*/
 .all-holes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -31,8 +30,6 @@ body {
   width: 215px;
 }
 
-/* add pressed effect to buttons */
-/* adjust button shadowing and shading to text? */
 #playbtn {
   font-family: 'VT323', monospace;
   margin-left: 210px;

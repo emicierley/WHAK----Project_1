@@ -21,6 +21,7 @@ function inMole(hole) {
   if (gameOn) {
     if (document.getElementById(hole.id).style.visibility === 'visible') {
       document.getElementById(hole.id).style.visibility = 'hidden'
+      // generates random values(both decimals and whole numbers)
       let randomNumber = Math.random() * (6000 - 4000) + 1000
       //tells moles to pop OUT of hole every x milli-seconds
       setTimeout(() => outMole(hole), randomNumber)
