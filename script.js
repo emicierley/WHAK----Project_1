@@ -46,7 +46,7 @@ function gamePlay() {
   setTimeout(() => {
     gameOn = false
     console.log('the game is now over')
-  }, 25000)
+  }, 45000)
 }
 
 ////////////////////////////////
