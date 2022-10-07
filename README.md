@@ -8,13 +8,13 @@
 
 ### By: Emi Cierley
 
-#### [GitHub](https://github.com/emicierley) | [LinkedIn](https://www.linkedin.com/in/emi-cierley/) | [Trello](https://trello.com/invite/b/xpRKizmE/89d925fd9490c979d44c2603a0ddbc85/whak)
+#### [GitHub](https://github.com/emicierley) | [LinkedIn](https://www.linkedin.com/in/emi-cierley/) | [Trello](https://trello.com/invite/b/xpRKizmE/89d925fd9490c979d44c2603a0ddbc85/whak) | [Surge] (https://whak.surge.sh/)
 
 ---
 
 ### **_Description_**
 
-#### My project, Whak!, is a game based off the the classic 1972 game, Whack-a-mole. This game was built in HTML, CSS, and JavaScript. This will be the first time displaying my engineering skills I have aquired in just two weeks.
+#### My project, Whak!, is a game based off the the classic 1972 game, Whack-a-mole with. I hope your in for a nostalgic trip back to 1995. This game was built in HTML, CSS, and JavaScript. This will be the first time displaying my engineering skills I have aquired in just two weeks.
 
 <!-- add more to description(?) -->
 
@@ -30,7 +30,7 @@
 
 ### **_Getting Started_**
 
-#### In this single player game, the object is to whack each mole as fast as you can before time runs out. Use your mallet to whack these pesky moles, and get them back in their holes. Each mole you hit, you get a point. There are nine moles, so be quick!
+#### In this single player game, the object is to "whak" each color tile as fast as you before the set 45 seconds. Use your pointer(cursor) to hit these quick tiles. Each color tile you hit, you get a point. There are nine tiles, so be quick!
 
 ---
 

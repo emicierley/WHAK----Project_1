@@ -12,6 +12,7 @@ const clickAudio = new Audio('Click.mp3')
 // Moles are out of holes, set with a parameter to go into the hole
 function outMole(hole) {
   document.getElementById(hole.id).style.visibility = 'visible'
+  //generating a random number between the two values (min&max) making a range
   let randomNumber = Math.random() * (3000 - 1000) + 1000
   //tells moles to pop IN hole every x milli-seconds
   setTimeout(() => inMole(hole), randomNumber)
@@ -45,7 +46,7 @@ function gamePlay() {
   setTimeout(() => {
     gameOn = false
     console.log('the game is now over')
-  }, 45000)
+  }, 25000)
 }
 
 ////////////////////////////////
