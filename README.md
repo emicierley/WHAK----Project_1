@@ -34,7 +34,7 @@
 
 ---
 
-### **_Screenshots_**
+### **_Screenshots of Whak!_**
 
 <!-- #### add title + insert game screenshots + URL -->
 

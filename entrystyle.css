@@ -36,16 +36,30 @@ audio {
 h1 {
   display: flex;
   padding-left: 160px;
-  margin-top: 20px;
-  font-size: 100px;
+  margin-top: 0px;
+  font-size: 80px;
 }
 
 h2 {
+  margin-bottom: 5px;
+  font-size: 14px;
+  padding-left: 200px;
+  color: #fe00ff;
+}
+
+p {
+  margin: 0;
+  font-size: 9px;
+  padding-left: 235px;
+}
+
+h4 {
   display: flex;
   justify-content: center;
-  padding-left: 45px;
-  font-size: 15px;
+  margin-left: 90px;
+  font-size: 13px;
   position: center fixed;
+  color: #00f;
 }
 
 #gametitle{
